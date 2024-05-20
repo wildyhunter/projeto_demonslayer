@@ -1,8 +1,20 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: Demon Slayer;
+    src: url(../fonts/blood-crow.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     margin: 0px;
     padding: 0px;
     border: none;
     box-sizing: border-box;
+}
+
+header {
+    font-family: Demon Slayer, sans-serif;
+    text-align: center;
 }
